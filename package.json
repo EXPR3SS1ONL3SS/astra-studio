@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "three": "^0.179.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.9.2"
+  }
+}
