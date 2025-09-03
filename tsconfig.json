@@ -11,7 +11,7 @@
     "paths": {
         "types": ["./codebase/ts/types"],
         "@components": ["./codebase/ts/components"],
-        "@core": ["./codebase/ts/components"],
+        "@core": ["./codebase/ts/core"],
         "@storage": ["./codebase/ts/storage"],
         "tsc": ["./codebase/typescript_compiler.js"],
         "runtime": ["./codebase/runtime.js"]
@@ -23,7 +23,7 @@
     "declarationMap": false,
     "sourceMap": true,                        /* Generates corresponding '.map' file. */
     // "outFile": "./",                       /* Concatenate and emit output to single file. */
-    "outDir": "./codebase/js",                       /* Redirect output structure to the directory. */
+    "outDir": "./codebase",                       /* Redirect output structure to the directory. */
     "rootDir": "./codebase/ts",
     // "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     // "removeComments": true,                /* Do not emit comments to output. */
