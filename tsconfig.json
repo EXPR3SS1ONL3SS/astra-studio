@@ -22,8 +22,8 @@
     "declaration": true,                      /* Generates corresponding '.d.ts' file. */
     "declarationMap": false,
     "sourceMap": true,                        /* Generates corresponding '.map' file. */
-    // "outFile": "./",                       /* Concatenate and emit output to single file. */
-    "outDir": "./codebase",                       /* Redirect output structure to the directory. */
+    // "outFile": "./",           //            /* Concatenate and emit output to single file. */
+    "outDir": "./codebase/js",                       /* Redirect output structure to the directory. */
     "rootDir": "./codebase/ts",
     // "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     // "removeComments": true,                /* Do not emit comments to output. */
