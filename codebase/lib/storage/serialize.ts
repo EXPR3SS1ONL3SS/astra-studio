@@ -1,4 +1,4 @@
-import * as types from "types"
+import * as types from "../types"
 
 const serializer = {
     decode(data: string) { // data starts off as a base64 string

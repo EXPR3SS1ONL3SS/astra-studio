@@ -9,13 +9,13 @@
       "dom.iterable"
     ],
     "paths": {
-        "types": ["./codebase/ts/types"],
-        "@components": ["./codebase/ts/components"],
-        "@core": ["./codebase/ts/core"],
-        "@storage": ["./codebase/ts/storage"],
-        "tsc": ["./codebase/typescript_compiler.js"],
-        "runtime": ["./codebase/runtime.js"]
+        "basic_types": ["codebase/lib/types"],
+        "@components": ["codebase/lib/components"],
+        "@core": ["codebase/lib/core"],
+        "@storage": ["codebase/lib/storage"],
+        "@types": ["codebase/lib/types"]
     },
+    "baseUrl": "./",
     "allowJs": false,                         /* Allow javascript files to be compiled. */
     // "checkJs": true,                       /* Report errors in .js files. */
     "jsx": "preserve",                        /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
@@ -24,7 +24,7 @@
     "sourceMap": true,                        /* Generates corresponding '.map' file. */
     // "outFile": "./",           //            /* Concatenate and emit output to single file. */
     "outDir": "./codebase/js",                       /* Redirect output structure to the directory. */
-    "rootDir": "./codebase/ts",
+    "rootDir": "codebase/lib",
     // "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     // "removeComments": true,                /* Do not emit comments to output. */
     // "noEmit": true,                        /* Do not emit outputs. */
