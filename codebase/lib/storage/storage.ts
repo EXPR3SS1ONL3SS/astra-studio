@@ -1,5 +1,5 @@
 import serial from "./serialize"
-import * as types from '../types'
+import * as types from '../basic_types'
 
 
 

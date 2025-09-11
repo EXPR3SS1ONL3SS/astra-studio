@@ -6,6 +6,20 @@
 
         <script type="module" src="codebase/typescript.js"></script>
         <script type="module" src="codebase/runtime.js"></script>
+        <script type="importmap">
+            {
+                "imports": {
+                    "@core": "./codebase/lib/core",
+                    "@components": "./codebase/lib/components",
+                    "@storage": "./codebase/lib/storage",
+                    "@types"; "./codebase/lib/types",\
+                    "@js": "./codebase/js",
+                    "@lib": "./codebase/lib",
+                    "bTypes": "./codebase/lib/basic_types.d.ts",
+                    "Num": "@core/InfNum.ts"
+                }
+            }
+        </script>
     </head>
     <body>
 

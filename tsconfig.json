@@ -9,11 +9,12 @@
       "dom.iterable"
     ],
     "paths": {
-        "basic_types": ["codebase/lib/types"],
-        "@components": ["codebase/lib/components"],
-        "@core": ["codebase/lib/core"],
-        "@storage": ["codebase/lib/storage"],
-        "@types": ["codebase/lib/types"]
+        "@components": ["./codebase/lib/components"],
+        "@core": ["./codebase/lib/core"],
+        "@storage": ["./codebase/lib/storage"],
+        "@types": ["./codebase/lib/types"],
+        "@lib": ["./codebase/lib"],
+        "Num": ["./codebase/lib/core/InfNum.ts"]
     },
     "baseUrl": "./",
     "allowJs": false,                         /* Allow javascript files to be compiled. */
@@ -24,7 +25,7 @@
     "sourceMap": true,                        /* Generates corresponding '.map' file. */
     // "outFile": "./",           //            /* Concatenate and emit output to single file. */
     "outDir": "./codebase/js",                       /* Redirect output structure to the directory. */
-    "rootDir": "codebase/lib",
+    "rootDir": "./codebase/lib",
     // "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     // "removeComments": true,                /* Do not emit comments to output. */
     // "noEmit": true,                        /* Do not emit outputs. */
