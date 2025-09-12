@@ -1,4 +1,4 @@
-import {dict, fn} from "@lib/basic_types"
+import {dict, fn} from "../basic_types"
 interface BaseNum {
     array: number[]
 }
@@ -298,7 +298,12 @@ class Num {
     static get NaN(): Num {
         return new Num({array: [-2, 0]})
     }
-    static config: TypeForStyleKey.
+    static config: dict = {
+        MAX_LAYERS: MAX_LAYERS,
+        MAX_LAYER_VALUE: MAX_LAYER_VALUE,
+        FORMAT_DIGITS: 3
+        
+    }
 }
 
 export default Num

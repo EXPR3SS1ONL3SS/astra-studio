@@ -5,7 +5,7 @@
             "name": "Debug Windows",
             "cwd": "./app",
             "type": "reactnative",
-            "request": "launch",
+            "request": "launch", // comment
             "platform": "windows"
         }
     ]

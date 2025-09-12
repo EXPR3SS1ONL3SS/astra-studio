@@ -14,7 +14,7 @@
         "@storage": ["./codebase/lib/storage"],
         "@types": ["./codebase/lib/types"],
         "@lib": ["./codebase/lib"],
-        "Num": ["./codebase/lib/core/InfNum.ts"]
+        "Num": ["codebase/lib/core/Nums.ts"]
     },
     "baseUrl": "./",
     "allowJs": false,                         /* Allow javascript files to be compiled. */

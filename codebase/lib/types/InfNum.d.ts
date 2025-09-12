@@ -1,1 +1,1 @@
-import * as IN from '../core/InfNum'
+import * as IN from '../core/Nums'
