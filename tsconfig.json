@@ -14,7 +14,8 @@
         "@storage": ["./codebase/lib/storage"],
         "@types": ["./codebase/lib/types"],
         "@lib": ["./codebase/lib"],
-        "Num": ["codebase/lib/core/Nums.ts"]
+        "Num": ["./codebase/lib/core/Nums.ts"],
+        "bTypes": ["./codebase/lib/basic_types.d.ts"]
     },
     "baseUrl": "./",
     "allowJs": false,                         /* Allow javascript files to be compiled. */
@@ -25,7 +26,7 @@
     "sourceMap": true,                        /* Generates corresponding '.map' file. */
     // "outFile": "./",           //            /* Concatenate and emit output to single file. */
     "outDir": "./codebase/js",                       /* Redirect output structure to the directory. */
-    "rootDir": "./codebase/lib",
+    "rootDir": "./codebase",
     // "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     // "removeComments": true,                /* Do not emit comments to output. */
     // "noEmit": true,                        /* Do not emit outputs. */
@@ -72,6 +73,14 @@
     "experimentalDecorators": true,           /* Enables experimental support for ES7 decorators. */
     "emitDecoratorMetadata": true             /* Enables experimental support for emitting type metadata for decorators. */
   },
+  "include": [
+    "./codebase/lib/**.ts",
+    "./codebase/lib/**/*.ts",
+    "./codebase/lib/**.tsx",
+    "./codebase/lib/**/*.tsx",
+    "./codebase/shared/**/*.ts",
+    "./codebase/shared/**//*.ts"
+  ],
   "exclude": [
     "node_modules"
   ],
